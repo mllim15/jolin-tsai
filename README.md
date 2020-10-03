@@ -1,2 +1,2 @@
 # jolin-tsai
-Jolin Tsai tribute page for a FCC project.
+Originally a Jolin Tsai tribute page for a FCC project, but added some more stuff.
