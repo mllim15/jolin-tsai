@@ -1,3 +1,41 @@
-h1 {
+body {
+  background-color: #22222a;
+  color: #9c9a04;
+}
+h1, h2 {
   text-align: center;
+  color: #9f9a02;
+}
+
+#description {
+  text-align: center;
+}
+
+/*user story 9: The img element should be centered within its parent element*/
+#image, #album {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  text-align: center;
+}
+/*<!--user story 8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+#image {
+  border: 15px solid #9c9a04;
+}
+#tribute-info p {
+  text-align: center;
+  border: 15px solid black;
+  padding: 10px;
+  margin: 5px 200px 10px 200px;
+}
+.timeline {
+  margin: 0 auto;
+  text-align:left;
+  display: table;
 }
