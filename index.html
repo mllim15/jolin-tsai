@@ -4,15 +4,51 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-	<h1 id="title">Jolin Tsai 蔡依林</h1>
-	<p id="description">Taiwanese singer, songwriter, dancer, actress, and business women.</p>
-	<div id="img-div">
-	  <img id="image" src="https://pinprestige.com/wp-content/uploads/2018/01/web.Jolin-Tsai-in-SS2018-The-Versace-Tribute-Collection_01.jpg" alt="Jolin sitting for a photoshoot">
-	  <p id="img-caption">Jolin Tsai dressed in the Versace Tribute Collection for a Versace photoshoot.</p>
-	</div>
-	<div id="tribute-info">
-	  <p></p>
-	</div>
+<!--user story 1: My tribute page should have an element with a corresponding id="main", which contains all other elements-->
+<main id="main">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--user story 2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page-->
+<h1 id="title">Jolin Tsai 蔡依林</h1>
+<p id="description">Taiwanese singer, songwriter, dancer, actress, and business women.</p>
+
+<!--user story 3: I should see a div element with a corresponding id="img-div"-->
+<div id="img-div">
+  <!--user story 4: Within the img-div element, I should see an img element with a corresponding id="image"-->
+  <img id="image" class="responsive" src="https://pinprestige.com/wp-content/uploads/2018/01/web.Jolin-Tsai-in-SS2018-The-Versace-Tribute-Collection_01.jpg" alt="Jolin sitting for a photoshoot">
+  
+  <!--user story 5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div-->
+  <figcaption id="img-caption">Jolin Tsai dressed in the Versace Tribute Collection for a photoshoot.</figcaption>
+</div>
+<br>
+  <h2>About the Artist</h2>
+<!--user story 6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page-->
+<div id="tribute-info">
+  <p>Jolin Tsai, 蔡依林 (Cai Yi Lin), was born on September 15, 1980 in Taiwan in Xin Zhuang, Taipei. In 1998, she joined a MTV singing competition and won. She then signed a recording deal with Universal Music Taiwan and released her debut single <em>Living With The World</em> in July of 1999. In September of the same year, she released her debut album <em>1019</em>, which sold over 400,000 copies in Taiwan alone. She is referred to as the <em>Queen of C-Pop</em> and known for frequently reinventing both her music and image.</p>
+
+  <h2>Album Discography Timeline</h2>
+  <img id="album" class="responsive" src="https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/04/f6/6c/04f66c3d-8651-19bc-89d1-707969e6a00a/886447475621.jpg/600x600bf.png" alt="Album cover of Ugly Beauty.">
+  <figcaption>Album cover of Ugly Beauty.</figcaption>
+  <br>
+  <ul class="timeline">
+    <li><strong>1999:</strong> 1019</li>
+    <li><strong>2000:</strong> Don't Stop</li>
+    <li><strong>2000:</strong> Show Your Love</li>
+    <li><strong>2001:</strong> Lucky Number</li>
+    <li><strong>2003:</strong> Magic</li>
+    <li><strong>2004:</strong> Castle</li>
+    <li><strong>2005:</strong> J-Game</li>
+    <li><strong>2006:</strong> Dancing Diva</li>
+    <li><strong>2007:</strong> Agent J</li>
+    <li><strong>2009:</strong> Butterfly</li>
+    <li><strong>2010:</strong> Myself</li>
+    <li><strong>2012:</strong> Muse</li>
+    <li><strong>2014:</strong> Play</li>
+    <li><strong>2018:</strong> Ugly Beauty</li>
+  </ul>
+</div>
+  <!--user story 7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page-->
+  <h2>If you want to learn more about Jolin, you can visit her Wikipedia page <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jolin_Tsai" target="_blank">here.</a></h2>  
+</main>
 </body>
 </html>
