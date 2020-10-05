@@ -1,2 +1,2 @@
 # jolin-tsai
-Originally a Jolin Tsai tribute page for a FCC project, but added some more stuff.
+Originally a Jolin Tsai tribute page for a FCC project, but converting to a mock musician website.
