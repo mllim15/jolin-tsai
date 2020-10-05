@@ -1,6 +1,6 @@
 @font-face {
 	font-family: roadRage;
-	src: url(fonts/Road_Rage.otf);
+	src: url("../jolin-tsai/fonts/Road_Rage.otf");
 }
 body {
   background-color: #22222a;
