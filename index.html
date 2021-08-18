@@ -1,52 +1,116 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://kit.fontawesome.com/6c3640fe2e.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fira+Sans:wght@200;400&display=swap" rel="stylesheet">
-	<title id="title">Jolin Tsai</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/6c3640fe2e.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>JOLIN CAI 蔡依林</title>
 </head>
+
 <body>
-<main id="main">
-	<nav id="topNav">
-		<ul>
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="#about">ABOUT</a></li>
-			<li><a href="music.html">MUSIC</a></li>
-			<li><a href="videos.html">VIDEOS</a></li>
-			<li><a href=#footerNav>SOCIAL</a></li>
-		</ul>
-	</nav>
-	
-	<div id="img-div">
-		<img id="image" class="responsive" src="images/uglybeauty.jpg">
-	</div>
-	
-	<div id="about">
-	<br>
-		<h2>About the Artist</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JOLIN TSAI 蔡依林</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Music
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Albums</a></li>
+                            <li><a class="dropdown-item" href="#">Songs</a></li>
+                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
 
-		<p>Jolin Tsai, 蔡依林 (Cai Yi Lin), was born on September 15, 1980 in Taiwan in Xin Zhuang, Taipei. In 1998, she joined a MTV singing competition and won. She then signed a recording deal with Universal Music Taiwan and released her debut single <em>Living With The World</em> in July of 1999. In September of the same year, she released her debut album <em>1019</em>, which sold over 400,000 copies in Taiwan alone. She is referred to as the <em>Queen of C-Pop</em> and known for frequently reinventing both her music and image.</p>
-	</div>
 
-		<img id="album" class="responsive" src="https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/04/f6/6c/04f66c3d-8651-19bc-89d1-707969e6a00a/886447475621.jpg/600x600bf.png" alt="Album cover of Ugly Beauty.">
-		<figcaption>Album cover of Ugly Beauty.</figcaption>
-		
-		<br>
-		
-	</div>
-	
-	<footer id="footerNav">
-		<ul>
-			<li><a href="https://www.facebook.com/hoo.jcai" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-			<li><a href="https://www.instagram.com/jolin_cai/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="https://www.youtube.com/user/jolintsai" target="_blank"><i class="fab fa-youtube"></i></a></li>
-			<li><a href="https://open.spotify.com/artist/1r9DuPTHiQ7hnRRZ99B8nL" target="_blank"><i class="fab fa-spotify"></i></a></li>
-			<li><a href="https://music.apple.com/us/artist/%E8%94%A1%E4%BE%9D%E6%9E%97/152678183" target="_blank"><i class="fab fa-apple"></i></a></li>
-			<li><a href="https://weibo.com/u/1742727537?topnav=1&wvr=6&topsug=1&is_all=1" target="_blank"><i class="fab fa-weibo"></i></a></li>
-		</ul>
+
+    <div id="about" class="about d-flex flex-column justify-content-center align-items-center vh-100 vw-100">
+        <h2 class="">ABOUT</h2>
+        <p>Jolin Tsai, 蔡依林 (Cai Yi Lin), was born on September 15, 1980 in Taiwan in Hsinchuang, Taipei. She is a
+            Taiwanese singer, songwriter, dancer, actress, and entrepreneur. She began her singing career by winning
+            the champion in an MTV singing competition in 1998, and in the next year she released her debut album.
+        </p>
+
+        <p>
+            Referred to as the "Queen of C-Pop", she is considered one of the most influential people in Chinese
+            popular culture. She is known for her continual reinvention and versatility in music style and visual
+            image, and she has achieved great reputation and popularity in the Chinese-speaking world. She is also
+            regarded as one of the key popularizers of dance-pop as mainstream music in Greater China, and she
+            remains completely in charge of every aspect of her career. Her works, which incorporate social themes,
+            have been met with both commercial success and critical acclaim. The Queen of C-Pop who never stops
+            reinventing herself, she is a five-time Golden Melody Award-winner who has sold over twenty-five million
+            records in Asia.
+        </p>
+    </div>
+
+    <footer id="footerNav" class="d-flex text-center justify-content-center">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><a href="https://www.facebook.com/hoo.jcai" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="list-group-item"><a href="https://www.instagram.com/jolin_cai/" target="_blank"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li class="list-group-item"><a href="https://www.youtube.com/user/jolintsai" target="_blank"><i
+                        class="fab fa-youtube"></i></a></li>
+            <li class="list-group-item"><a href="https://open.spotify.com/artist/1r9DuPTHiQ7hnRRZ99B8nL"
+                    target="_blank"><i class="fab fa-spotify"></i></a></li>
+            <li class="list-group-item"><a
+                    href="https://music.apple.com/us/artist/%E8%94%A1%E4%BE%9D%E6%9E%97/152678183" target="_blank"><i
+                        class="fab fa-apple"></i></a></li>
+            <li class="list-group-item"><a href="https://weibo.com/u/1742727537?topnav=1&wvr=6&topsug=1&is_all=1"
+                    target="_blank"><i class="fab fa-weibo"></i></a></li>
+        </ul>
     </footer>
-	
-</main>
+
+
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
